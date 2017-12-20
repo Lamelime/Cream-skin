@@ -1,0 +1,73 @@
+{
+    "override_views": [
+        "settings"
+    ],
+    "static_files": [
+        "css/bootstrap.min.css",
+        "css/discuss.css",
+        "css/font-awesome.min.css",
+        "css/jquery-ui.min.css",
+        "css/namuvector.css",
+        "css/wiki.css",
+        "fonts/fontawesome-webfont.eot",
+        "fonts/fontawesome-webfont.svg",
+        "fonts/fontawesome-webfont.ttf",
+        "fonts/fontawesome-webfont.woff",
+        "fonts/fontawesome-webfont.woff2",
+        "fonts/FontAwesome.otf",
+        "img/logo.svg",
+        "js/bootstrap.min.js",
+        "js/jquery-3.2.1.min.js",
+        "js/jquery-ui.min.js",
+        "js/jquery.lazyload.min.js",
+        "js/layout.js",
+        "js/tether.min.js",
+        "js/theseed.js",
+        "js/settings.js"
+    ],
+    "auto_js_targets": {
+        "*": [
+            {
+                "path": "js/jquery-3.2.1.min.js"
+            },
+            {
+                "path": "js/jquery-ui.min.js"
+            },
+            {
+                "path": "js/tether.min.js"
+            },
+            {
+                "path": "js/bootstrap.min.js"
+            },
+            {
+                "path": "js/theseed.js"
+            },
+            {
+                "path": "js/layout.js"
+            },
+            {
+                "path": "js/jquery.lazyload.min.js"
+            }
+        ],
+        "settings": [
+            {
+                "path": "js/settings.js"
+            }
+        ]
+    },
+    "auto_css_targets": {
+        "*": [
+            "css/bootstrap.min.css",
+            "css/discuss.css",
+            "css/font-awesome.min.css",
+            "css/jquery-ui.min.css",
+            "css/namuvector.css",
+            "css/wiki.css"
+        ]
+    },
+    "manual_file_targets": {},
+    "body_classes": [
+        "NamuVector"
+    ],
+    "additional_heads": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">"
+}
