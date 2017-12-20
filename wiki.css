@@ -1,50 +1,43 @@
 a {
-	color: #337ab7;
+	color: #9B370D;
 }
 
 a.new {
-	color: #b73333;
+	color: #D60003;
 }
 
 a:hover,
 a:focus {
-	color: #23527c;
+	color: #52230F;
 	text-decoration: underline;
 	transition: 0.3s;
 }
 
 a.new:hover,
 a.new:focus {
-	color: #7c2323;
+	color: #A90002;
 	text-decoration: underline;
 	transition: 0.3s;
 }
 
 a.external {
-	color: #33b733;
+	color: #DEBB35;
 }
 
 a.external:hover,
 a.external:focus {
-	color: #2ca02c;
+	color: #AA9546;
 	text-decoration: underline;
 	transition: 0.3s;
 }
 
-a.external:before {
-	font: normal normal normal 14px/1 FontAwesome;
-	text-align: center;
-	color: #33b733;
-	content: '\f0c1';
-}
-
 .plainlinks a.external {
-	color: #337ab7;
+	color: #9B370D;
 }
 
 .plainlinks a.external:hover,
 .plainlinks a.external:focus {
-	color: #23527c;
+	color: #52230F;
 	text-decoration: underline;
 	transition: 0.3s;
 }
